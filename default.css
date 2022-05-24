@@ -75,6 +75,7 @@ body * {
     background-color: var(--secondaryColor);
     border:1px solid var(--borderColor);
     border-radius: 5px 5px 0 0;
+    margin-bottom: 100px;
 
     -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.73);
     -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.73);
@@ -141,6 +142,10 @@ body * {
     background-color: #2ACA3E;
 }
 
+#personal-theme{
+    padding-right: 10px;
+}
+
 .left-column{
     grid-area: left-column;
     padding-top: 50px;
@@ -150,9 +155,10 @@ body * {
 #profile_pic{
     display:block;
     margin: 0 auto;
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 400px;
     object-fit: cover;
+    border-radius: 1%;
     border: 2px solid var(--borderColor);
 }
 
@@ -209,6 +215,7 @@ body * {
     align-content: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-left: 90px;
 }
 
 #preview-shadow{
@@ -238,25 +245,7 @@ body * {
     position: absolute
 }
 
-#corner-tl{
-    top: -5px;
-    left: -5px;
-}
 
-#corner-tr{
-    top: -5px;
-    right: -5px;
-}
-
-#corner-br{
-    bottom: -5px;
-    right: -5px;
-}
-
-#corner-bl {
-    bottom: -5px;
-    left: -5px;
-}
 
 .about-wrapper{
     display:grid;
