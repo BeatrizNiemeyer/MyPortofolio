@@ -18,13 +18,15 @@ html, body{
 
 h1, h2, h3, h4, h5, h6, strong {
     color: var(--mainText);
-    font-family: 'Russo One', sans-serif;
-    font-weight: 300;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 400;
 }
 
-p, li, span, label, input, textarea{
+p, li, span, label, input, textarea, a{
     color: var(--secondaryText);
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 a{
@@ -143,7 +145,8 @@ body * {
 }
 
 #personal-theme{
-    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 25px;
 }
 
 .left-column{
@@ -158,7 +161,7 @@ body * {
     height: 400px;
     width: 400px;
     object-fit: cover;
-    border-radius: 1%;
+    border-radius: 10px;
     border: 2px solid var(--borderColor);
 }
 
@@ -167,44 +170,22 @@ body * {
     justify-content: center;
 }
 
-.theme-dot{
-    height: 30px;
-    width:30px;
-    border-radius: 50%;
-    background-color: black;
-
-    margin: 5px;
-    border: 2px solid var(--themeDotBorder);
-
-    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.73);
-    -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.73);
-    box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-
-    cursor: pointer
+.theme-dot {
+    font-size: 30px;
+    margin-left: 7px;
+    margin-right: 8px;
+    cursor: pointer;
+    
 }
 
 .theme-dot:hover{
-    border-width: 5px;
+    border-radius: 50px;
+
 }
 
-#light-mode{
-    background-color:#fff;
-}
-
-#blue-mode{
-    background-color:#192734;
-}
-
-#green-mode{
-    background-color:#78866b;
-}
-
-#purple-mode{
-    background-color:#7E4C74;
-}
 
 #setting-note{
-    font-size: 12px;
+    font-size: 14px;
     font-style: italic;
     text-align: center;
 }
@@ -224,6 +205,7 @@ body * {
     height: 180px; 
     padding-left: 30px;
     padding-top: 30px;
+    border-radius: 10px;
 
 }
 
@@ -234,6 +216,7 @@ body * {
     background-color: var(--previewBg);
     padding:15px;
     position: relative;
+    border-radius: 10px;
 }
 
 .corner{
